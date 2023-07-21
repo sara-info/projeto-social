@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main {
+    position: relative;   
+    height: 100vh;
+    background-color: green;
+}
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* para centralizar o ponto central figura */
+
+    height: 627px; /* pode ir no gimp e ver exatamente o tamanho da img */
+    width: 310px;
+    
+    background: url(../imagens/frame-iphone.png) no-repeat;
+}
